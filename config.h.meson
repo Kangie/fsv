@@ -1,0 +1,237 @@
+/* config.h.meson; adapted from the old config.h.in...
+*  Which was generated from configure.in by autoheader.
+* acconfig.h */
+
+#mesondefine _GNU_SOURCE
+#mesondefine GTK_DISABLE_COMPAT_H
+
+#mesondefine comparison_fn_t
+
+#mesondefine DEBUG
+#mesondefine G_ENABLE_DEBUG
+#mesondefine G_DISABLE_ASSERT
+#mesondefine G_DISABLE_CHECKS
+#mesondefine GTK_NO_CHECK_CASTS
+
+#mesondefine ENABLE_NLS
+#mesondefine HAVE_CATGETS
+#mesondefine HAVE_GETTEXT
+#mesondefine HAVE_LC_MESSAGES
+#mesondefine HAVE_STPCPY
+
+#mesondefine HAVE_FILE_COMMAND
+#mesondefine FILE_COMMAND
+
+// end acconfig.h
+
+// Define to one of `_getb67', `GETB67', `getb67' for Cray-2 and Cray-YMP
+// systems. This function is required for `alloca.c' support on those systems.
+#mesondefine CRAY_STACKSEG_END
+
+// Define to 1 if using `alloca.c'.
+#mesondefine C_ALLOCA
+
+// Define to 1 if translation of program messages to the user's native
+// language is requested.
+#mesondefine ENABLE_NLS
+
+// Define to 1 if you have `alloca', as a function or macro.
+#mesondefine HAVE_ALLOCA
+
+// Define to 1 if you have <alloca.h> and it should be used (not on Ultrix).
+
+#mesondefine HAVE_ALLOCA_H
+
+// Define to 1 if you have the Mac OS X function
+// CFLocaleCopyPreferredLanguages in the CoreFoundation framework.
+#mesondefine HAVE_CFLOCALECOPYPREFERREDLANGUAGES
+
+// Define to 1 if you have the Mac OS X function CFPreferencesCopyAppValue in
+// the CoreFoundation framework.
+#mesondefine HAVE_CFPREFERENCESCOPYAPPVALUE
+
+// Define if the GNU dcgettext() function is already present or preinstalled.
+
+#mesondefine HAVE_DCGETTEXT
+
+// Define to 1 if you have the <dirent.h> header file, and it defines `DIR'.
+
+#mesondefine HAVE_DIRENT_H
+
+// Define to 1 if your system has a working POSIX `fnmatch' function.
+#mesondefine HAVE_FNMATCH
+
+// Define to 1 if you have the `getcwd' function.
+#mesondefine HAVE_GETCWD
+
+// Define if the GNU gettext() function is already present or preinstalled.
+#mesondefine HAVE_GETTEXT
+
+// Define to 1 if you have the `gettimeofday' function.
+#mesondefine HAVE_GETTIMEOFDAY
+
+// Define to 1 if you have the <inttypes.h> header file.
+#mesondefine HAVE_INTTYPES_H
+
+// Define to 1 if you have the `m' library (-lm).
+#mesondefine HAVE_LIBM
+
+// Define to 1 if you have the <memory.h> header file.
+#mesondefine HAVE_MEMORY_H
+
+// Define to 1 if you have the `mktime' function.
+#mesondefine HAVE_MKTIME
+
+// Define to 1 if you have the <ndir.h> header file, and it defines `DIR'.
+#mesondefine HAVE_NDIR_H
+
+// Define to 1 if you have the `scandir' function.
+#mesondefine HAVE_SCANDIR
+
+// Define to 1 if you have the <stdint.h> header file.
+#mesondefine HAVE_STDINT_H
+
+// Define to 1 if you have the <stdlib.h> header file.
+#mesondefine HAVE_STDLIB_H
+
+// Define to 1 if you have the `strcspn' function.
+#mesondefine HAVE_STRCSPN
+
+// Define to 1 if you have the `strdup' function.
+#mesondefine HAVE_STRDUP
+
+// Define to 1 if you have the `strftime' function.
+#mesondefine HAVE_STRFTIME
+
+// Define to 1 if you have the <strings.h> header file.
+#mesondefine HAVE_STRINGS_H
+
+// Define to 1 if you have the <string.h> header file.
+#mesondefine HAVE_STRING_H
+
+// Define to 1 if you have the `strspn' function.
+#mesondefine HAVE_STRSPN
+
+// Define to 1 if you have the `strtod' function.
+#mesondefine HAVE_STRTOD
+
+// Define to 1 if you have the `strtoul' function.
+#mesondefine HAVE_STRTOUL
+
+// Define to 1 if `st_blocks' is a member of `struct stat'.
+#mesondefine HAVE_STRUCT_STAT_ST_BLOCKS
+
+// Define to 1 if your `struct stat' has `st_blocks'. Deprecated, use
+// `HAVE_STRUCT_STAT_ST_BLOCKS' instead.
+#mesondefine HAVE_ST_BLOCKS
+
+// Define to 1 if you have the <sys/dir.h> header file, and it defines `DIR'.
+
+#mesondefine HAVE_SYS_DIR_H
+
+// Define to 1 if you have the <sys/ndir.h> header file, and it defines `DIR'.
+
+#mesondefine HAVE_SYS_NDIR_H
+
+// Define to 1 if you have the <sys/stat.h> header file.
+#mesondefine HAVE_SYS_STAT_H
+
+// Define to 1 if you have the <sys/time.h> header file.
+#mesondefine HAVE_SYS_TIME_H
+
+// Define to 1 if you have the <sys/types.h> header file.
+#mesondefine HAVE_SYS_TYPES_H
+
+// Define to 1 if you have the <unistd.h> header file.
+#mesondefine HAVE_UNISTD_H
+
+// Name of package
+#mesondefine PACKAGE
+
+// Define to the address where bug reports for this package should be sent.
+#mesondefine PACKAGE_BUGREPORT
+
+// Define to the full name of this package.
+#mesondefine PACKAGE_NAME
+
+// Define to the full name and version of this package.
+#mesondefine PACKAGE_STRING
+
+// Define to the one symbol short name of this package.
+#mesondefine PACKAGE_TARNAME
+
+// Define to the home page for this package.
+#mesondefine PACKAGE_URL
+
+// Define to the version of this package.
+#mesondefine PACKAGE_VERSION
+
+// If using the C implementation of alloca, define if you know the
+//   direction of stack growth for your system; otherwise it will be
+//   automatically deduced at runtime.
+//	STACK_DIRECTION > 0 => grows toward higher addresses
+//	STACK_DIRECTION < 0 => grows toward lower addresses
+//	STACK_DIRECTION = 0 => direction of growth unknown
+#mesondefine STACK_DIRECTION
+
+// Define to 1 if you have the ANSI C header files.
+#mesondefine STDC_HEADERS
+
+// Define to 1 if you can safely include both <sys/time.h> and <time.h>.
+#mesondefine TIME_WITH_SYS_TIME
+
+// Define to 1 if your <sys/time.h> declares `struct tm'.
+#mesondefine TM_IN_SYS_TIME
+
+// Enable extensions on AIX 3, Interix.
+#ifndef _ALL_SOURCE
+// mesondefine _ALL_SOURCE
+#endif
+// Enable GNU extensions on systems that have them.
+#ifndef _GNU_SOURCE
+// mesondefine _GNU_SOURCE
+#endif
+// Enable threading extensions on Solaris.
+#ifndef _POSIX_PTHREAD_SEMANTICS
+// mesondefine _POSIX_PTHREAD_SEMANTICS
+#endif
+// Enable extensions on HP NonStop.
+#ifndef _TANDEM_SOURCE
+// mesondefine _TANDEM_SOURCE
+#endif
+// Enable general extensions on Solaris.
+#ifndef __EXTENSIONS__
+// mesondefine __EXTENSIONS__
+#endif
+
+
+// Version number of package
+#mesondefine VERSION
+
+// Define to 1 if on MINIX.
+#mesondefine _MINIX
+
+// Define to 2 if the system does not provide POSIX.1 features except with
+// this defined.
+#mesondefine _POSIX_1_SOURCE
+
+// Define to 1 if you need to in order for `stat' and other things to work.
+#mesondefine _POSIX_SOURCE
+
+// Define to empty if `const' does not conform to ANSI C.
+#mesondefine const
+
+// Define to `int' if <sys/types.h> doesn't define.
+#mesondefine gid_t
+
+// Define to `int' if <sys/types.h> does not define.
+#mesondefine mode_t
+
+// Define to `int' if <sys/types.h> does not define.
+#mesondefine pid_t
+
+// Define to `unsigned int' if <sys/types.h> does not define.
+#mesondefine size_t
+
+// Define to `int' if <sys/types.h> doesn't define.
+#mesondefine uid_t

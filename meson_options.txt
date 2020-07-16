@@ -1,0 +1,8 @@
+option('with-lib-GL', type: 'boolean',
+    value: false, description: 'Force use of OpenGL')
+option('with-lib-MesaGL', type: 'boolean',
+    value: false, description: 'Force use of MesaGL')
+option('GL-prefix', type: 'string',
+    description: 'Prefix if GL/MesaGL is installed to a non-standard location (optional)')
+option('nls', type : 'boolean', value : true, yield: true,
+    description : 'Enable native language support (translations)')
